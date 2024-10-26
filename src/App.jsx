@@ -1,10 +1,14 @@
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import "./App.css";
+import { Navbar } from "./component/Navbar/Navbar";
+import { lightTheme } from "./theme/LightTheme";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-red-500">Hello</h1>
-    </div>
+    <ThemeProvider theme={lightTheme}>
+      <CssBaseline />
+      <Navbar />
+    </ThemeProvider>
   );
 };
 
