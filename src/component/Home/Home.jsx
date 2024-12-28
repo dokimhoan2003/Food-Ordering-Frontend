@@ -5,7 +5,7 @@ import MultiItemCarousel from "./MultiItemCarousel";
 const restaurantFake = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 const Home = () => {
   return (
-    <div>
+    <div className="pb-10">
       {/* banner */}
       <section className="banner -z-50 relative flex flex-col justify-center items-center">
         <div className="w-[50vw] z-10 text-center">
