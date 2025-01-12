@@ -19,7 +19,7 @@ export const Navbar = () => {
         </div>
 
         <div className="">
-          <Avatar sx={{ bgcolor: "white", color: green.A400 }}>C</Avatar>
+          <Avatar sx={{ bgcolor: "white", color: green.A400 }}>H</Avatar>
         </div>
 
         <div className="">

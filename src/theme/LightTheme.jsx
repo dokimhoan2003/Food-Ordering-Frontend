@@ -4,7 +4,8 @@ export const lightTheme = createTheme({
   palette: {
     mode: "light", // Đặt chế độ là "light"
     primary: {
-      main: "#1976d2", // Màu xanh dương nhạt, phù hợp cho light mode
+      // main: "#1976d2", // Màu xanh dương nhạt, phù hợp cho light mode
+      main: "#22c55e",
     },
     secondary: {
       main: "#f50057", // Màu hồng đậm, tạo điểm nhấn cho light mode
