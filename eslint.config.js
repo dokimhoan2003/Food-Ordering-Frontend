@@ -31,6 +31,7 @@ export default [
       "react/jsx-no-target-blank": "off",
       "react/prop-types": "off", // off vì bắt sử dụng ts insted js
       "no-constant-condition": "off", // off vì nó ko cho sd đkien
+      "no-unused-vars": "warn", // set warn khi declare một biến mà không sử dụng(defaut error)
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
