@@ -7,6 +7,7 @@ import RestaurantDetails from "./component/Restaurant/RestaurantDetails";
 import Cart from "./component/Cart/Cart";
 import Profile from "./component/Profile/Profile.jsx";
 import { CustomerRoute } from "./routes/CustomerRoute.jsx";
+import Auth from "./component/Auth/Auth.jsx";
 
 const App = () => {
   return (

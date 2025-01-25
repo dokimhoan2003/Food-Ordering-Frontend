@@ -4,10 +4,10 @@ import { green } from "@mui/material/colors";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
+import PersonIcon from "@mui/icons-material/Person";
 
 export const Navbar = () => {
   const navigate = useNavigate();
-
   return (
     <div className="px-5 sticky top-0 z-50  py-[.8rem] bg-[#22c55e] lg:px-20 flex justify-between">
       <div className="lg:mr-10 cursor-pointer flex items-center space-x-4">
@@ -27,7 +27,13 @@ export const Navbar = () => {
         </div>
 
         <div className="">
-          <Avatar sx={{ bgcolor: "white", color: green.A400 }}>H</Avatar>
+          {false ? (
+            <Avatar sx={{ bgcolor: "white", color: green.A400 }}>H</Avatar>
+          ) : (
+            <IconButton onClick={() => navigate("/account/login")}>
+              <PersonIcon sx={{ color: "white" }} />
+            </IconButton>
+          )}
         </div>
 
         <div className="">
